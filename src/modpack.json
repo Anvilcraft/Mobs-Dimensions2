@@ -1,5 +1,5 @@
 {
-  "id": "mobs&dimensions2",
+  "id": "mobs&dimensions2mzte",
   "type": "modpack",
   "versions": [
     {
@@ -2350,6 +2350,12 @@
   "meta": {
     "name": "Mobs&Dimensions2",
     "contributors": [
+      {
+        "name": "LordMZTE",
+        "roles": [
+          "owner"
+        ]
+      },
       {
         "name": "tilera",
         "roles": [
