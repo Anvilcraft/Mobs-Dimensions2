@@ -1,4 +1,4 @@
 *.json linguist-detectable=true
 *.json linguist-language=JSON
 *.cfg linguist-detectable=true
-*.cfg linguist-language=Forge Config
+*.cfg linguist-language=Config
