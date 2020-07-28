@@ -1,0 +1,14 @@
+[Locations]
+    #The location of the twitch manifest file (will be replaced with addonscript in later versions)
+    manifestFile = "src/twitch/manifest.json"
+    #The location of the source
+    src = "src"
+    #The location used to store temporary files
+    tempDir = ".mpt"
+[Local]
+    selectedVersion = -1
+[Downloads]
+    #The maximum number of threads that will be used for downloads
+    maxThreads = 5
+    #The timeout of http requests in ms
+    httpTimeout = 2147483647

@@ -1,0 +1,182 @@
+{
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "nbt": {"size":"5","casingColor":"16730368","ember":{"embers:ember":"0.0d","embers:emberCapacity":"32000.0d"},"ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tileemberinputhatch"},
+            "elements": [
+                "modulardiversity:blockemberinputhatch@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"modularmagic:tilelifeessenceproviderinput","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmagic:blocklifeessenceproviderinput@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "nbt": {"ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"modularmagic:tileconstellationprovider"},
+            "elements": [
+                "modularmagic:blockconstellationprovider@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "nbt": {"mech_power0":"0.0d","mech_power2":"0.0d","mech_power1":"0.0d","casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilemysticalmechanicsinput","mech_power4":"0.0d","mech_power3":"0.0d","mech_power5":"0.0d"},
+            "elements": [
+                "modulardiversity:blockmystmechinput@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "nbt": {"mana":"0","casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilemanainputhatch"},
+            "elements": [
+                "modulardiversity:blockmanainputhatch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "nbt": {"hatchSize":"7","casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tileenergyoutputhatch","energy":"0L"},
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "nbt": {"blocked":"0b","Amount":"0s","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"facing":"2b","id":"modularmagic:tileaspectproviderinput"},
+            "elements": [
+                "modularmagic:blockaspectproviderinput@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "nbt": {"ticksExisted":"1310","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"starlight":"241","id":"modularmagic:tilestarlightinput"},
+            "elements": [
+                "modularmagic:blockstarlightproviderinput@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "nbt": {"casingColor":"16730368","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "nbt": {"Active":"1b","ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"Frequency":"-1787616551","id":"modularmagic:tilegridproviderinput"},
+            "elements": [
+                "modularmagic:blockgridproviderinput@0"
+            ]
+        }
+    ]}
