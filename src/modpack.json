@@ -2336,6 +2336,34 @@
             "required",
             "included"
           ]
+        },
+        {
+          "id": "f32",
+          "file": {
+            "installer": "internal.dir:resourcepacks",
+            "link": "http://www.f32.me/F32-1.12.2.zip"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "faithful",
+          "file": {
+            "installer": "internal.dir:resourcepacks",
+            "link": "https://github.com/FaithfulTeam/Faithful/archive/1.12.zip"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
         }
       ]
     }
