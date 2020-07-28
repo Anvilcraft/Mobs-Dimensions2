@@ -1,5 +1,5 @@
-## Mobs and Dimensions 2
+## Mobs and Dimensions 2 MZTE fork
 ---
-this is the repo for the next anvilcraft minecraft modpack
+just my fork of MnD2 which is probably vastly superior to the main version :P
 
 this was made using [modpacktools](https://github.com/Anvilcraft/modpacktools)
