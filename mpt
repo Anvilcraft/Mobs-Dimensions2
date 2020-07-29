@@ -1,5 +1,5 @@
 #!/bin/sh
-cd "$(dirname "$0")"
+cd "$(dirname "$0")" || exit
 case $1 in
 install)
   if ! [ -d "$HOME/.mpt" ];
@@ -10,6 +10,16 @@ install)
     dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
     echo Downloading $dl ...
     curl $dl --output $HOME/.mpt/mpt.jar
+  fi
+  ;;
+update)
+  dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+  echo Downloading $dl ...
+  if [ -f "$HOME/.mpt/mpt.jar" ]
+  then
+    curl $dl --output $HOME/.mpt/mpt.jar
+  else
+    curl $dl --output .mpt/mpt.jar
   fi
   ;;
 *)
