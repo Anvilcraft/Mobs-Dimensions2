@@ -2333,7 +2333,7 @@
           "options": [
             "required",
             "client",
-            "required",
+            "server",
             "included"
           ]
         }
