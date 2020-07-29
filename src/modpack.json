@@ -2372,7 +2372,37 @@
             "required",
             "client",
             "included"
+          ],
+          "meta": {
+            "name": "F32",
+            "description": ["Faithful texture pack for mods"],
+            "website": "http://f32.me",
+            "icon": "https://avatars3.githubusercontent.com/u/8607259?s=200&v=4",
+            "contributors": [
+              {"name": "anders0nmat36", "roles": ["contributor"]},
+              {"name": "StefanTT", "roles": ["contributor"]},
+              {"name": "MassiMD", "roles": ["contributor"]},
+              {"name": "Ormsher", "roles": ["contributor"]},
+              {"name": "Intipablo", "roles": ["contributor"]},
+              {"name": "Ethryan", "roles": ["contributor"]},
+              {"name": "thewawpro", "roles": ["contributor"]},
+              {"name": "peterhaneve", "roles": ["contributor"]},
+              {"name": "agarian-2", "roles": ["contributor"]},
+              {"name": "jmongeon", "roles": ["contributor"]},
+              {"name": "aws404", "roles": ["contributor"]},
+              {"name": "smenes", "roles": ["contributor"]},
+              {"name": "cpw", "roles": ["contributor"]},
+              {"name": "brad18", "roles": ["contributor"]},
+              {"name": "blumn2", "roles": ["contributor"]},
+              {"name": "VT-14", "roles": ["contributor"]},
+              {"name": "Trinsdar", "roles": ["contributor"]},
+              {"name": "SuperMario20", "roles": ["contributor"]},
+              {"name": "Riernar", "roles": ["contributor"]},
+              {"name": "Luke100000", "roles": ["contributor"]},
+              {"name": "KarlosWGeek", "roles": ["contributor"]},
+              {"name": "Bernasss12", "roles": ["contributor"]}
           ]
+         }
         },
         {
           "id": "faithful",
@@ -2385,7 +2415,19 @@
             "required",
             "client",
             "included"
-          ]
+          ],
+          "meta": {
+            "name": "Faithful",
+            "description": ["Pretty good looking texture pack i guess"],
+            "website": "https://faithful.team",
+            "icon": "https://faithful.team/content/images/2020/04/faithful_logo_3_final-2.png",
+            "contributors": [
+              {"name": "xMrVizzy", "roles": ["contributor"]},
+              {"name": "seirin-blu", "roles": ["contributor"]},
+              {"name": "katdotsh", "roles": ["contributor"]},
+              {"name": "Juknum", "roles": ["contributor"]}
+            ]
+          }
         }
       ]
     }
