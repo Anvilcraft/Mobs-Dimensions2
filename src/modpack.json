@@ -2338,41 +2338,16 @@
           ]
         },
         {
-<<<<<<< HEAD
-          "id": "f32",
-          "file": {
-            "installer": "internal.dir:resourcepacks",
-            "link": "http://www.f32.me/F32-1.12.2.zip"
-          },
-          "type": "mod",
-=======
           "id": "spackenmobs",
           "file": {
             "installer": "internal.dir:resourcepacks",
             "link": "https://data.tilera.xyz/file/spackenmobs/spackenmobs-1.0.zip"
           },
           "type": "resourcepack",
->>>>>>> original/master
           "options": [
             "required",
             "client",
             "included"
-<<<<<<< HEAD
-          ]
-        },
-        {
-          "id": "faithful",
-          "file": {
-            "installer": "internal.dir:resourcepacks",
-            "link": "https://github.com/FaithfulTeam/Faithful/archive/1.12.zip"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "included"
-          ]
-=======
           ],
           "meta": {
             "name": "Spackenmobs",
@@ -2384,8 +2359,33 @@
                 ]
               }
             ]
-          }
->>>>>>> original/master
+         }
+        },
+        {
+          "id": "f32",
+          "file": {
+            "installer": "internal.dir:resourcepacks",
+            "link": "http://www.f32.me/F32-1.12.2.zip"
+          },
+          "type": "resourcepack",
+          "options": [
+            "required",
+            "client",
+            "included"
+          ]
+        },
+        {
+          "id": "faithful",
+          "file": {
+            "installer": "internal.dir:resourcepacks",
+            "link": "https://github.com/FaithfulTeam/Faithful/archive/1.12.zip"
+          },
+          "type": "resourcepack",
+          "options": [
+            "required",
+            "client",
+            "included"
+          ]
         }
       ]
     }
