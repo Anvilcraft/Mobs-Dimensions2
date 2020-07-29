@@ -1,0 +1,31 @@
+#!/bin/sh
+cd "$(dirname "$0")"
+case $1 in
+install)
+  if ! [ -d "$HOME/.mpt" ];
+  then mkdir $HOME/.mpt
+  fi
+  if ! [ -f "$HOME/.mpt/mpt.jar" ];
+  then
+    dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+    echo Downloading $dl ...
+    curl $dl --output $HOME/.mpt/mpt.jar
+  fi
+  ;;
+*)
+  if ! [ -d ".mpt" ];
+  then mkdir .mpt
+  fi
+  if [ -f "$HOME/.mpt/mpt.jar" ];
+  then jar=$HOME/.mpt/mpt.jar
+  elif [ -f ".mpt/mpt.jar" ];
+  then jar=.mpt/mpt.jar
+  else
+    dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+    echo Downloading $dl ...
+    curl $dl --output .mpt/mpt.jar
+    jar=.mpt/mpt.jar
+  fi
+  java -jar $jar $*
+  ;;
+esac
