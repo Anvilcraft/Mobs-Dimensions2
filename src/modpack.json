@@ -2336,6 +2336,30 @@
             "server",
             "included"
           ]
+        },
+        {
+          "id": "spackenmobs",
+          "file": {
+            "installer": "internal.dir:resourcepacks",
+            "link": "https://data.tilera.xyz/file/spackenmobs/spackenmobs-1.0.zip"
+          },
+          "type": "resourcepack",
+          "options": [
+            "required",
+            "client",
+            "included"
+          ],
+          "meta": {
+            "name": "Spackenmobs",
+            "contributors": [
+              {
+                "name": "ACGaming",
+                "roles": [
+                  "owner"
+                ]
+              }
+            ]
+          }
         }
       ]
     }
