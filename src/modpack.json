@@ -2328,7 +2328,7 @@
         },
         {
           "id": "forge",
-          "versions": "[-14.23.5.2847]",
+          "versions": "[14.23.5.2847]",
           "type": "modloader",
           "options": [
             "required",
