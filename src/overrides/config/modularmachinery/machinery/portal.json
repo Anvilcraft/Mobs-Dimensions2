@@ -1,0 +1,338 @@
+{
+    "registryname": "portal",
+    "localizedname": "Dimensional Portal",
+    "color": "000000",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_cavern","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_abyss","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_mob","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_advent","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_midnight","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_between","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_erebus","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_aether","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_boss","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_end","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_twilight","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "nbt": {"Size":"1","Items":[{"Slot":"0","id":"contenttweaker:cluster_nether","Count":"1b","Damage":"0s"}],"id":"minecraft:ec_pedestal"},
+            "elements": [
+                "extendedcrafting:pedestal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "rftoolsdim:dimensional_cross2_block@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "rftoolsdim:dimensional_cross2_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "rftoolsdim:dimensional_cross2_block@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mystcraft:blockcrystal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "rftoolsdim:dimensional_cross_block@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "rftoolsdim:dimensional_cross2_block@1"
+            ]
+        }
+    ]}
