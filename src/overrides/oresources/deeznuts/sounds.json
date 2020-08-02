@@ -1,0 +1,19 @@
+{
+	"entities.dncreeper.fuse": {
+        "sounds": [
+            { "name": "deeznuts:fuse" }
+        ]
+    },
+    "entities.dncreeper.blow": {
+        "sounds": [
+            { "name": "deeznuts:blow" }
+        ]
+    },
+    "entities.dncreeper.hurt": {
+        "sounds": [
+            { "name": "deeznuts:hurt1" },
+            { "name": "deeznuts:hurt2" },
+            { "name": "deeznuts:hurt3" }
+        ]
+    }
+}
