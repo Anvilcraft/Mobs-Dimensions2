@@ -8,3 +8,5 @@ blast_furnace.recipeBuilder()
     .duration(120)
     .EUt(120)
     .buildAndRegister();
+
+recipes.remove(<avaritia:extreme_crafting_table>);

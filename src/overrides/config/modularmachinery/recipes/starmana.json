@@ -1,0 +1,17 @@
+{
+    "machine": "manafab",
+    "registryName": "starmana",
+    "recipeTime": 20,
+    "requirements": [
+      {
+        "type": "mana",
+        "io-type": "output",
+        "mana": 10
+      },
+      {
+        "type": "starlight",
+        "io-type": "input",
+        "amount": 640
+      }
+    ]
+}

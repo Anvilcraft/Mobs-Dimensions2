@@ -1,0 +1,83 @@
+{
+    "machine": "reactor",
+    "registryName": "reactor_energy",
+    "recipeTime": 1,
+    "requirements": [
+      {
+          "type": "item",
+          "io-type": "input",
+          "item": "dimdoors:world_thread",
+          "amount": 64
+      },
+      {
+          "type": "item",
+          "io-type": "input",
+          "item": "dimdoors:world_thread",
+          "amount": 64
+      },
+      {
+          "type": "item",
+          "io-type": "input",
+          "item": "dimdoors:world_thread",
+          "amount": 64
+      },
+      {
+          "type": "item",
+          "io-type": "input",
+          "item": "dimdoors:world_thread",
+          "amount": 64
+      },
+      {
+          "type": "item",
+          "io-type": "input",
+          "item": "dimdoors:world_thread",
+          "amount": 64
+      },
+      {
+        "type": "starlight",
+        "io-type": "input",
+        "amount": 1000
+      },
+      {
+        "type": "grid",
+        "io-type": "input",
+        "power": 1000
+      },
+      {
+        "type": "lifeessence",
+        "io-type": "input",
+        "essenceamount": 512
+      },
+      {
+        "type": "mana",
+        "io-type": "input",
+        "mana": 100000
+      },
+      {
+        "type": "ember",
+        "io-type": "input",
+        "ember": 1024
+      },
+      {
+        "type": "mysticalmechanics",
+        "io-type": "input",
+        "levelRequiredMin": 40
+      },
+      {
+        "type": "aspect",
+        "io-type": "input",
+        "aspect": "vacuos",
+        "amount": 500
+      },
+      {
+          "type": "energy",
+          "io-type": "output",
+          "energyPerTick": 9223372036854775806
+      },
+      {
+        "type" : "constellation",
+        "io-type" : "input",
+        "constellation" : "horologium"
+      }
+    ]
+}

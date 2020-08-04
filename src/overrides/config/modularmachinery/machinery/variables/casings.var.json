@@ -22,5 +22,18 @@
     "casings_item": [
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
+    ],
+    "casings_reactor": [
+      "modularmachinery:blockcasing",
+      "modularmachinery:blockinputbus",
+      "modularmachinery:blockenergyoutputhatch",
+      "modulardiversity:blockemberinputhatch",
+      "modularmagic:blocklifeessenceproviderinput",
+      "modularmagic:blockconstellationprovider",
+      "modulardiversity:blockmystmechinput",
+      "modulardiversity:blockmanainputhatch",
+      "modularmagic:blockaspectproviderinput",
+      "modularmagic:blockstarlightproviderinput",
+      "modularmagic:blockgridproviderinput"
     ]
 }
