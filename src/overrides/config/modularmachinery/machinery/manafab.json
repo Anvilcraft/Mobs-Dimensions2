@@ -4,94 +4,9 @@
   "color": "1FCC2D",
     "parts": [
         {
-            "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch"
-            ]
-        },
-        {
             "x": -1,
             "y": 0,
             "z": 0,
-
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "botania:storage@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "botania:storage@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "botania:specialflower@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "botania:storage@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
             "elements": [
                 "botania:storage@1"
             ]
@@ -99,80 +14,69 @@
         {
             "x": -1,
             "y": 0,
-            "z": 6,
-
+            "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "botania:storage@1"
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-
+            "x": 0,
+            "y": 1,
+            "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch"
+                "botania:spreader"
             ]
         },
         {
             "x": 0,
             "y": 0,
-            "z": 6,
+            "z": 1,
             "elements": [
                 "modulardiversity:blockmanaoutputhatch@0"
             ]
         },
         {
-            "x": 3,
+            "x": 1,
             "y": 0,
-            "z": 4,
-
+            "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "botania:storage@1"
             ]
         },
         {
-            "x": 2,
+            "x": -1,
             "y": 0,
-            "z": 5,
-
+            "z": 2,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "botania:storage@1"
             ]
         },
         {
             "x": 1,
             "y": 0,
-            "z": 6,
-
+            "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "botania:storage@1"
             ]
         },
         {
-            "x": -3,
+            "x": 0,
             "y": 0,
             "z": 2,
-
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "modularmachinery:blockenergyinputhatch",
+                "modulardiversity:blockemberinputhatch",
+                "modularmagic:blocklifeessenceproviderinput",
+                "modularmagic:blockstarlightproviderinput",
+                "modularmagic:blockgridproviderinput"
             ]
         },
         {
-            "x": -2,
+            "x": 1,
             "y": 0,
-            "z": 1,
-
+            "z": 2,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "botania:storage@1"
             ]
         }
     ]}

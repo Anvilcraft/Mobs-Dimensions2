@@ -7,160 +7,122 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": -4,
             "y": 0,
             "z": 4,
-            "elements": [
-                "modulardiversity:blockemberinputhatch"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": -4,
             "y": 0,
             "z": 5,
-            "elements": [
-                "modularmagic:blocklifeessenceproviderinput"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 2,
             "y": 0,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": -3,
             "y": 0,
             "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 0,
             "y": 0,
             "z": 4,
             "elements": [
-                "avaritia:block_resource@1"
+                "extendedcrafting:storage@4"
             ]
         },
         {
             "x": 3,
             "y": 0,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": -2,
             "y": 0,
             "z": 7,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 4,
             "y": 0,
             "z": 3,
-            "elements": [
-                "modularmagic:blockconstellationprovider"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": -1,
             "y": 0,
             "z": 8,
-            "elements": [
-                "modulardiversity:blockmystmechinput"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 4,
             "y": 0,
             "z": 4,
-            "elements": [
-                "modulardiversity:blockmanainputhatch@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 0,
             "y": 0,
             "z": 8,
-            "elements": [
-                "modularmachinery:blockenergyoutputhatch"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 1,
             "y": 0,
             "z": 8,
-            "elements": [
-                "modularmagic:blockaspectproviderinput"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 2,
             "y": 0,
             "z": 7,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 3,
             "y": 0,
             "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": 4,
             "y": 0,
             "z": 5,
-            "elements": [
-                "modularmagic:blockstarlightproviderinput"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": -2,
             "y": 0,
             "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": -3,
             "y": 0,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "casings_reactor"
         },
         {
             "x": -4,
             "y": 0,
             "z": 3,
-            "elements": [
-                "modularmagic:blockgridproviderinput"
-            ]
+            "elements": "casings_reactor"
         }
     ]}

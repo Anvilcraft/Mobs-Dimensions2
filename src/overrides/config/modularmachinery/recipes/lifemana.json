@@ -1,0 +1,17 @@
+{
+    "machine": "manafab",
+    "registryName": "lifemana",
+    "recipeTime": 10,
+    "requirements": [
+      {
+        "type": "mana",
+        "io-type": "output",
+        "mana": 10
+      },
+      {
+        "type": "lifeessence",
+        "io-type": "input",
+        "essenceamount": 5
+      }
+    ]
+}

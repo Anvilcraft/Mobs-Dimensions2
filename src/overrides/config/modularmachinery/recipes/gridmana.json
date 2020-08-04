@@ -1,0 +1,17 @@
+{
+    "machine": "manafab",
+    "registryName": "gridmana",
+    "recipeTime": 20,
+    "requirements": [
+      {
+        "type": "mana",
+        "io-type": "output",
+        "mana": 10
+      },
+      {
+        "type": "grid",
+        "io-type": "input",
+        "power": 200
+      }
+    ]
+}
