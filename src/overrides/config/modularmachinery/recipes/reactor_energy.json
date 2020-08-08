@@ -67,7 +67,7 @@
         "type": "aspect",
         "io-type": "input",
         "aspect": "vacuos",
-        "amount": 500
+        "amount": 250
       },
       {
           "type": "energy",

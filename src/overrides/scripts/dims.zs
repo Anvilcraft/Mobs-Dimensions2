@@ -1,6 +1,5 @@
 var neutronium = mods.modularmachinery.RecipeBuilder.newBuilder("neutronium", "portal", 120);
 neutronium.addItemInput(<dimdoors:world_thread> * 20);
-neutronium.addItemInput(<draconicevolution:chaos_shard:2>);
 neutronium.addItemOutput(<avaritia:resource:2>);
 neutronium.build();
 
@@ -50,11 +49,10 @@ twilight.build();
 var cavern = mods.modularmachinery.RecipeBuilder.newBuilder("cavern", "dimextractor", 60);
 cavern.addItemOutput(<contenttweaker:cluster_cavern>);
 cavern.addItemInput(<dimdoors:world_thread> * 5);
-cavern.addItemInput(<cavern:cave_item:6>);
 cavern.addItemInput(<cavern:cave_item>);
 cavern.addItemInput(<cavern:cave_item:1>);
 cavern.addItemInput(<cavern:cave_item:2>);
-cavern.addDimensionRequirement([-50]);
+cavern.addDimensionRequirement([-50, -51, -52]);
 cavern.build();
 
 var between = mods.modularmachinery.RecipeBuilder.newBuilder("between", "dimextractor", 60);
@@ -84,3 +82,35 @@ midnight.addItemInput(<midnight:stinger_egg>);
 midnight.addItemInput(<midnight:bloomcrystal>);
 midnight.addDimensionRequirement([-34]);
 midnight.build();
+
+var abyss = mods.modularmachinery.RecipeBuilder.newBuilder("abyss", "dimextractor", 60);
+abyss.addItemOutput(<contenttweaker:cluster_abyss>);
+abyss.addItemInput(<dimdoors:world_thread> * 5);
+abyss.addItemInput(<abyssalcraft:oc>);
+abyss.addItemInput(<abyssalcraft:gatekeeperessence>);
+abyss.addDimensionRequirement([53]);
+abyss.build();
+
+var advent = mods.modularmachinery.RecipeBuilder.newBuilder("advent", "dimextractor", 60);
+advent.addItemOutput(<contenttweaker:cluster_advent>);
+advent.addItemInput(<dimdoors:world_thread> * 5);
+advent.addItemInput(<aoa3:craexxeus_statue>);
+advent.addItemInput(<aoa3:hydrolisk_statue>);
+advent.addItemInput(<aoa3:hydrolisk_statue>);
+advent.addItemInput(<aoa3:guardian_statue>);
+advent.addItemInput(<aoa3:kror_statue>);
+advent.addDimensionRequirement([820, 814, 811, 807]);
+advent.build();
+
+var mob = mods.modularmachinery.RecipeBuilder.newBuilder("mob", "dimextractor", 60);
+mob.addItemOutput(<contenttweaker:cluster_mob>);
+mob.addItemInput(<dimdoors:world_thread> * 5);
+//TODO Add items
+mob.build();
+
+var boss = mods.modularmachinery.RecipeBuilder.newBuilder("boss", "dimextractor", 60);
+boss.addItemOutput(<contenttweaker:cluster_boss>);
+boss.addItemInput(<dimdoors:world_thread> * 5);
+boss.addItemInput(<botania:manaresource:5>);
+//TODO Add items
+boss.build();

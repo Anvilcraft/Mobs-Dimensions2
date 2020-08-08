@@ -1,0 +1,10 @@
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_sword>, 1000, <projecte:item.pe_rm_sword>, [<draconicevolution:draconic_sword>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_pickaxe>, 1000, <projecte:item.pe_rm_pick>, [<draconicevolution:draconic_pick>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_axe>, 1000, <projecte:item.pe_rm_axe>, [<draconicevolution:draconic_axe>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_shovel>, 1000, <projecte:item.pe_rm_shovel>, [<draconicevolution:draconic_shovel>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_hoe>, 1000, <projecte:item.pe_rm_hoe>, [<draconicevolution:draconic_hoe>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_helmet>, 1000, <projecte:item.pe_gem_armor_3>, [<draconicevolution:draconic_helm>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_chestplate>, 1000, <projecte:item.pe_gem_armor_2>, [<draconicevolution:draconic_chest>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_pants>, 1000, <projecte:item.pe_gem_armor_1>, [<draconicevolution:draconic_legs>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_boots>, 1000, <projecte:item.pe_gem_armor_0>, [<draconicevolution:draconic_boots>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_bow>, 1000, <projecte:item.pe_archangel_smite>, [<draconicevolution:draconic_bow>, <extendedcrafting:material:32>, <extrautils2:opinium:8>]);
