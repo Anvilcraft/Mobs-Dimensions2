@@ -17,6 +17,21 @@
       ],
       "relations": [
         {
+          "id": "ftbguides",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:317586:2827161",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
           "id": "227873",
           "file": {
             "installer": "internal.dir:mods",
@@ -1712,10 +1727,10 @@
           ]
         },
         {
-          "id": "244301",
+          "id": "cavern",
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:244301:2525772",
+            "artifact": "curse.maven:285628:2984351",
             "repository": "curse"
           },
           "type": "mod",
@@ -2388,7 +2403,7 @@
         },
         {
           "id": "forge",
-          "versions": "[14.23.5.2847]",
+          "versions": "[14.23.5.2854]",
           "type": "modloader",
           "options": [
             "required",
@@ -2405,7 +2420,7 @@
           },
           "type": "resourcepack",
           "options": [
-            "required",
+            "optional",
             "client",
             "included"
           ],
@@ -2429,7 +2444,7 @@
           },
           "type": "resourcepack",
           "options": [
-            "required",
+            "optional",
             "client",
             "included"
           ],
@@ -2472,7 +2487,7 @@
           },
           "type": "resourcepack",
           "options": [
-            "required",
+            "optional",
             "client",
             "included"
           ],
@@ -2511,7 +2526,8 @@
       {
         "name": "tilera",
         "roles": [
-          "owner"
+          "author",
+          "artist"
         ]
       },
       {
