@@ -9,7 +9,7 @@ install)
   then
     dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
     echo Downloading $dl ...
-    curl "$dl --output $HOME/.mpt/mpt.jar"
+    curl $dl --output $HOME/.mpt/mpt.jar
   fi
   ;;
 update)
@@ -17,9 +17,9 @@ update)
   echo Downloading $dl ...
   if [ -f ".mpt/mpt.jar" ]
   then
-    curl "$dl --output .mpt/mpt.jar"
+    curl $dl --output .mpt/mpt.jar
   else
-    curl "$dl --output $HOME/.mpt/mpt.jar"
+    curl $dl --output $HOME/.mpt/mpt.jar
   fi
   echo Updating Script
   curl https://data.tilera.xyz/file/mpt/mpt > mpt
@@ -35,7 +35,7 @@ update)
   else
     dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
     echo Downloading $dl ...
-    curl "$dl --output .mpt/mpt.jar"
+    curl $dl --output .mpt/mpt.jar
     jar=.mpt/mpt.jar
   fi
   java -jar $jar $*
