@@ -2402,6 +2402,21 @@
           ]
         },
         {
+          "id": "mdutils",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "ley.anvil:mdutils:1.0",
+            "repository": "tilera"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
           "id": "forge",
           "versions": "[14.23.5.2854]",
           "type": "modloader",
@@ -2512,6 +2527,11 @@
       "id": "curse",
       "type": "curseforge",
       "url": "https://www.cursemaven.com/"
+    },
+    {
+      "id": "tilera",
+      "type": "maven",
+      "url": "https://data.tilera.xyz/maven/"
     }
   ],
   "meta": {
