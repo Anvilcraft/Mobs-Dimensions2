@@ -8,6 +8,13 @@ blast_furnace.recipeBuilder()
     .duration(120)
     .EUt(120)
     .buildAndRegister();
+var ult = mods.modularmachinery.RecipeBuilder.newBuilder("ultimate", "alloyfurnace", 120);
+ult.addEnergyPerTickInput(1024);
+ult.addItemInput(<avaritia:resource:4> * 1);
+ult.addItemInput(<avaritia:resource:1> * 1);
+ult.addItemInput(<avaritia:resource:6> * 1);
+ult.addItemOutput(<extendedcrafting:material:32> * 3);
+ult.build();
 recipes.remove(<avaritia:extreme_crafting_table>);
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 recipes.remove(<ageofminecraft:mob_spawner_spc>);
@@ -19,6 +26,10 @@ recipes.remove(<rftools:machine_frame>);
 recipes.remove(<rftoolsdim:empty_dimension_tab>);
 recipes.remove(<projecte:collector_mk1>);
 recipes.remove(<avaritia:resource:1>);
+recipes.remove(<ageofminecraft:commandingstaff>);
+recipes.remove(<ageofminecraft:convertingstaff>);
+recipes.remove(<ageofminecraft:heromaker>);
+recipes.remove(<deepmoblearning:machine_casing>);
 mods.bloodmagic.BloodAltar.addRecipe(<projecte:item.pe_philosophers_stone>, <botania:manaresource:9>, 4, 2000,30,40);
 mods.extendedcrafting.TableCrafting.addShaped(0, <ageofminecraft:mob_spawner_spc>, [
 	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>],
@@ -82,3 +93,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:block_resource:1>, [
       	[<bloodmagic:slate:4>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <bloodmagic:slate:4>],
       	[<ore:ingotUnstable>, <bloodmagic:slate:4>, <ore:ingotMelodicAlloy>, <bloodmagic:slate:4>, <ore:ingotCrystallinePinkSlime>]
       ]);
+mods.extendedcrafting.EnderCrafting.addShaped(<ageofminecraft:heromaker>, [
+  [null, <ore:ingotUltimate>, null],
+  [<ore:ingotUltimate>, <ore:gemNetherStar>, <ore:ingotUltimate>],
+  [null, <ore:ingotUltimate>, null]
+], 10);
+recipes.addShaped(<minecraft:barrier>, [[null, <avaritia:resource:6>, null],[null, <minecraft:glass>, null], [null, <avaritia:resource:6>, null]]);
+recipes.addShaped(<projecte:item.pe_tome>, [[null, <avaritia:resource:6>, null],[<projecte:item.pe_klein_star:5>, <minecraft:book>, <projecte:item.pe_klein_star:5>], [null, <avaritia:resource:6>, null]]);
+recipes.addShaped(<deepmoblearning:machine_casing>, [[<deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_plate>],[<deepmoblearning:soot_covered_plate>, <enderio:item_material:53>, <deepmoblearning:soot_covered_plate>], [<deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_plate>]]);
