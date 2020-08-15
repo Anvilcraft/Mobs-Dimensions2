@@ -1,31 +1,392 @@
 {
-    "registryname": "engine",
-    "localizedname": "Electrical Engine",
-    "color": "52525B",
+  "registryname": "engine",
+  "localizedname": "Electrical Engine",
+  "color": "52525B",
     "parts": [
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modulardiversity:blockmystmechoutput@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "libvulpes:coil0@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch"
-            ]
-        }
-    ]
-  }
+      {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "elements": [
+              "modularmachinery:blockoutputbus"
+          ]
+      },
+      {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "elements": [
+              "gregtech:wire_coil"
+          ]
+      },
+      {
+          "x": -2,
+          "y": 0,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "elements": [
+              "gregtech:wire_coil"
+          ]
+      },
+      {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "elements": [
+              "modularmachinery:blockinputbus"
+          ]
+      },
+      {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -1,
+          "y": 0,
+          "z": 2,
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "elements": [
+              "gregtech:wire_coil"
+          ]
+      },
+      {
+          "x": 0,
+          "y": 0,
+          "z": 2,
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": 0,
+          "z": 1,
+          "elements": [
+              "modularmachinery:blockenergyinputhatch"
+          ]
+      },
+      {
+          "x": 1,
+          "y": 0,
+          "z": 2,
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": 0,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": -1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 1,
+          "y": -1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 0,
+          "y": -1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -2,
+          "y": 1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -1,
+          "y": -1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -2,
+          "y": 1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -2,
+          "y": -1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -2,
+          "y": -1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -1,
+          "y": 1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 0,
+          "y": 1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -1,
+          "y": -1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -2,
+          "y": -1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 1,
+          "y": 1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 0,
+          "y": -1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": 1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -1,
+          "y": -1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": 1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 0,
+          "y": -1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 1,
+          "y": -1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 1,
+          "y": -1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": -1,
+          "z": 1,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": 2,
+          "y": -1,
+          "z": 2,
+
+          "elements": [
+              "modularmachinery:blockcasing"
+          ]
+      },
+      {
+          "x": -2,
+          "y": 0,
+          "z": 1,
+          "elements": [
+              "modulardiversity:blockmystmechoutput"
+          ]
+      }
+    ]}
