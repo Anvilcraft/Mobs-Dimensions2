@@ -2556,7 +2556,8 @@
           "author"
         ]
       }
-    ]
+    ],
+    "description": ["MZTE fork of the Mobs and Dimensions 2 pack"]
   },
   "asversion": 1
 }
