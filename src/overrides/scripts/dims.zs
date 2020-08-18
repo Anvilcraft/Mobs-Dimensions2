@@ -105,12 +105,21 @@ advent.build();
 var mob = mods.modularmachinery.RecipeBuilder.newBuilder("mob", "dimextractor", 60);
 mob.addItemOutput(<contenttweaker:cluster_mob>);
 mob.addItemInput(<dimdoors:world_thread> * 5);
-//TODO Add items
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "minecraft:creeper"}));
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "minecraft:blaze"}));
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "minecraft:enderman"}));
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "morecreeps:lawyer_from_hell"})); //To be replaced with "Jens Faymann"
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "erebus:erebus.wasp"}));
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "midnight:nova"}));
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "iceandfire:myrmex_royal"}));
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "thebetweenlands:dark_druid"}));
+mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "dimdoors:mob_monolith"}));
 mob.build();
 
 var boss = mods.modularmachinery.RecipeBuilder.newBuilder("boss", "dimextractor", 60);
 boss.addItemOutput(<contenttweaker:cluster_boss>);
 boss.addItemInput(<dimdoors:world_thread> * 5);
 boss.addItemInput(<botania:manaresource:5>);
-//TODO Add items
+boss.addItemInput(<iceandfire:hydra_heart>);
+boss.addItemInput(<iceandfire:gorgon_head>);
 boss.build();
