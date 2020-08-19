@@ -1,0 +1,43 @@
+#!/bin/sh
+cd "$(dirname "$0")" || exit
+case $1 in
+install)
+  if ! [ -d "$HOME/.mpt" ];
+  then mkdir $HOME/.mpt
+  fi
+  if ! [ -f "$HOME/.mpt/mpt.jar" ];
+  then
+    dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+    echo Downloading $dl ...
+    curl $dl --output $HOME/.mpt/mpt.jar
+  fi
+  ;;
+update)
+  dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+  echo Downloading $dl ...
+  if [ -f ".mpt/mpt.jar" ]
+  then
+    curl $dl --output .mpt/mpt.jar
+  else
+    curl $dl --output $HOME/.mpt/mpt.jar
+  fi
+  echo Updating Script
+  curl https://data.tilera.xyz/file/mpt/mpt > mpt
+  ;;
+*)
+  if ! [ -d ".mpt" ];
+  then mkdir .mpt
+  fi
+  if [ -f ".mpt/mpt.jar" ];
+  then jar=.mpt/mpt.jar
+  elif [ -f "$HOME.mpt/mpt.jar" ];
+  then jar=$HOME.mpt/mpt.jar
+  else
+    dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+    echo Downloading $dl ...
+    curl $dl --output .mpt/mpt.jar
+    jar=.mpt/mpt.jar
+  fi
+  java -jar $jar $*
+  ;;
+esac

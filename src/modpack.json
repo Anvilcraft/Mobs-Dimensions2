@@ -1,5 +1,5 @@
 {
-  "id": "mobs&dimensions2mzte",
+  "id": "mobs&dimensions2",
   "type": "modpack",
   "versions": [
     {
@@ -2403,7 +2403,7 @@
         },
         {
           "id": "forge",
-          "versions": "[1.12.2-14.23.5.2854]",
+          "versions": "[14.23.5.2854]",
           "type": "modloader",
           "options": [
             "required",
@@ -2434,74 +2434,6 @@
                 ]
               }
             ]
-         }
-        },
-        {
-          "id": "f32",
-          "file": {
-            "installer": "internal.dir:resourcepacks",
-            "link": "http://www.f32.me/F32-1.12.2.zip"
-          },
-          "type": "resourcepack",
-          "options": [
-            "optional",
-            "client",
-            "included"
-          ],
-          "meta": {
-            "name": "F32",
-            "description": ["Faithful texture pack for mods"],
-            "website": "http://f32.me",
-            "icon": "https://avatars3.githubusercontent.com/u/8607259?s=200&v=4",
-            "contributors": [
-              {"name": "anders0nmat36", "roles": ["contributor"]},
-              {"name": "StefanTT", "roles": ["contributor"]},
-              {"name": "MassiMD", "roles": ["contributor"]},
-              {"name": "Ormsher", "roles": ["contributor"]},
-              {"name": "Intipablo", "roles": ["contributor"]},
-              {"name": "Ethryan", "roles": ["contributor"]},
-              {"name": "thewawpro", "roles": ["contributor"]},
-              {"name": "peterhaneve", "roles": ["contributor"]},
-              {"name": "agarian-2", "roles": ["contributor"]},
-              {"name": "jmongeon", "roles": ["contributor"]},
-              {"name": "aws404", "roles": ["contributor"]},
-              {"name": "smenes", "roles": ["contributor"]},
-              {"name": "cpw", "roles": ["contributor"]},
-              {"name": "brad18", "roles": ["contributor"]},
-              {"name": "blumn2", "roles": ["contributor"]},
-              {"name": "VT-14", "roles": ["contributor"]},
-              {"name": "Trinsdar", "roles": ["contributor"]},
-              {"name": "SuperMario20", "roles": ["contributor"]},
-              {"name": "Riernar", "roles": ["contributor"]},
-              {"name": "Luke100000", "roles": ["contributor"]},
-              {"name": "KarlosWGeek", "roles": ["contributor"]},
-              {"name": "Bernasss12", "roles": ["contributor"]}
-          ]
-         }
-        },
-        {
-          "id": "faithful",
-          "file": {
-            "installer": "internal.dir:resourcepacks",
-            "link": "https://github.com/FaithfulTeam/Faithful/archive/1.12.zip"
-          },
-          "type": "resourcepack",
-          "options": [
-            "optional",
-            "client",
-            "included"
-          ],
-          "meta": {
-            "name": "Faithful",
-            "description": ["Pretty good looking texture pack i guess"],
-            "website": "https://faithful.team",
-            "icon": "https://faithful.team/content/images/2020/04/faithful_logo_3_final-2.png",
-            "contributors": [
-              {"name": "xMrVizzy", "roles": ["contributor"]},
-              {"name": "seirin-blu", "roles": ["contributor"]},
-              {"name": "katdotsh", "roles": ["contributor"]},
-              {"name": "Juknum", "roles": ["contributor"]}
-            ]
           }
         }
       ]
@@ -2523,26 +2455,25 @@
     "name": "Mobs&Dimensions2",
     "contributors": [
       {
-        "name": "LordMZTE",
+        "name": "tilera",
         "roles": [
           "owner"
         ]
       },
       {
-        "name": "tilera",
+        "name": "ACGaming",
         "roles": [
           "author",
           "artist"
         ]
       },
       {
-        "name": "ACGaming",
+        "name": "LordMZTE",
         "roles": [
           "author"
         ]
       }
-    ],
-    "description": ["MZTE fork of the Mobs and Dimensions 2 pack"]
+    ]
   },
   "asversion": 1
 }

@@ -1,8 +1,0 @@
-gamma:1.0
-guiScale:2
-resourcePacks:["1.12.zip", "F32-1.12.2.zip", "spackenmobs-1.0.zip"]
-showSubtitles:true
-autoJump:false
-soundCategory_master:0.4
-soundCategory_music:0.0
-soundCategory_block:0.3
