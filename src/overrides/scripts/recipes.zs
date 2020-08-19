@@ -101,3 +101,5 @@ mods.extendedcrafting.EnderCrafting.addShaped(<ageofminecraft:heromaker>, [
 recipes.addShaped(<minecraft:barrier>, [[null, <avaritia:resource:6>, null],[null, <minecraft:glass>, null], [null, <avaritia:resource:6>, null]]);
 recipes.addShaped(<projecte:item.pe_tome>, [[null, <avaritia:resource:6>, null],[<projecte:item.pe_klein_star:5>, <minecraft:book>, <projecte:item.pe_klein_star:5>], [null, <avaritia:resource:6>, null]]);
 recipes.addShaped(<deepmoblearning:machine_casing>, [[<deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_plate>],[<deepmoblearning:soot_covered_plate>, <enderio:item_material:53>, <deepmoblearning:soot_covered_plate>], [<deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_plate>]]);
+mods.projecte.WorldTransmutation.add(<extendedcrafting:storage:2>, <nyx:star_block>);
+mods.extrautils2.Resonator.add(<minecraft:ender_pearl> * 4, <nyx:fallen_star>, 5000);

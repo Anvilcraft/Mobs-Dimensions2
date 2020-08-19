@@ -116,10 +116,11 @@ mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "thebetweenla
 mob.addItemInput(<draconicevolution:mob_soul>.withTag({EntityName: "dimdoors:mob_monolith"}));
 mob.build();
 
-var boss = mods.modularmachinery.RecipeBuilder.newBuilder("boss", "dimextractor", 60);
-boss.addItemOutput(<contenttweaker:cluster_boss>);
-boss.addItemInput(<dimdoors:world_thread> * 5);
-boss.addItemInput(<botania:manaresource:5>);
-boss.addItemInput(<iceandfire:hydra_heart>);
-boss.addItemInput(<iceandfire:gorgon_head>);
-boss.build();
+var overworld = mods.modularmachinery.RecipeBuilder.newBuilder("overworld", "dimextractor", 60);
+overworld.addItemOutput(<contenttweaker:cluster_overworld>);
+overworld.addItemInput(<dimdoors:world_thread> * 5);
+overworld.addItemInput(<botania:manaresource:5>);
+overworld.addItemInput(<iceandfire:hydra_heart>);
+overworld.addItemInput(<iceandfire:gorgon_head>);
+overworld.addDimensionRequirement([0]);
+overworld.build();

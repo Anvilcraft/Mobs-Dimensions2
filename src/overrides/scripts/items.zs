@@ -59,7 +59,7 @@ mobCluster.maxStackSize = 1;
 mobCluster.rarity = "rare";
 mobCluster.register();
 
-var bossCluster = VanillaFactory.createItem("cluster_boss");
+var bossCluster = VanillaFactory.createItem("cluster_overworld");
 bossCluster.maxStackSize = 1;
 bossCluster.rarity = "rare";
 bossCluster.register();
