@@ -1592,21 +1592,6 @@
           ]
         },
         {
-          "id": "nolives",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:281229:2807969",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
-        },
-        {
           "id": "349214",
           "file": {
             "installer": "internal.dir:mods",
