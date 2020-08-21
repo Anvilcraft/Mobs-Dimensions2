@@ -7,13 +7,13 @@ install)
   fi
   if ! [ -f "$HOME/.mpt/mpt.jar" ];
   then
-    dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+    dl=$(curl https://data.tilera.xyz/api/mpt.php/latest)
     echo Downloading $dl ...
     curl $dl --output $HOME/.mpt/mpt.jar
   fi
   ;;
 update)
-  dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+  dl=$(curl https://data.tilera.xyz/api/mpt.php/latest)
   echo Downloading $dl ...
   if [ -f ".mpt/mpt.jar" ]
   then
@@ -22,7 +22,7 @@ update)
     curl $dl --output $HOME/.mpt/mpt.jar
   fi
   echo Updating Script
-  curl https://data.tilera.xyz/file/mpt/mpt > mpt
+  curl https://data.tilera.xyz/api/mpt.php/script > mpt
   ;;
 *)
   if ! [ -d ".mpt" ];
@@ -33,7 +33,7 @@ update)
   elif [ -f "$HOME.mpt/mpt.jar" ];
   then jar=$HOME.mpt/mpt.jar
   else
-    dl=$(curl https://data.tilera.xyz/file/mpt/mpt-latest)
+    dl=$(curl https://data.tilera.xyz/api/mpt.php/latest)
     echo Downloading $dl ...
     curl $dl --output .mpt/mpt.jar
     jar=.mpt/mpt.jar
